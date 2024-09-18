@@ -39,9 +39,7 @@ function Content() {
         </div>
         <div className='flex-wrap flex w-full'>
           {imageData.map(item => (
-            // <div className='bg-gray-500 m-2 hover:shadow-inner shadow-2xl'>
-              <img className='m-4 flex shadow-white hover:shadow-transparent rounded-lg' width={250} height={250} src={item} alt="1221212121" />
-            // </div>
+            <img className='m-4 flex shadow-white hover:shadow-transparent rounded-lg' width={250} height={250} src={item} alt="1221212121" />
           ))}
         </div>
       </div>

@@ -3,7 +3,6 @@ import { Link, useNavigate } from 'react-router-dom'
 
 import { Search, Apps, Person, KeyboardArrowDown } from "@mui/icons-material";
 import DashboardCustomizeIcon from '@mui/icons-material/DashboardCustomize';
-import { Language } from '../index'
 
 function Header() {
     const navigate = useNavigate()
@@ -75,7 +74,6 @@ function Header() {
                             <Search />
                         </div>
                         <div onMouseEnter={() => renderMousseEneter(false)} onMouseLeave={() => renderMousseEneter(true)} className='hover:bg-white hover:text-black rounded-sm p-2 flex justify-between'>
-                            
                             <h1>EN</h1>
                             <KeyboardArrowDown />
                         </div>
